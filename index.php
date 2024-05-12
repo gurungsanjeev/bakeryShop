@@ -1,4 +1,9 @@
 <?php
+// Error showing code
+ini_set("display_errors", 1);
+ini_set("display_startup_errors", 1);
+error_reporting(E_ALL);
+
 if (isset($_GET['login_success']) && $_GET['login_success'] == 1) {
     echo "<script>alert('Logged in!')</script>";
     echo "<script>window.location.assign('index.php')</script>";
