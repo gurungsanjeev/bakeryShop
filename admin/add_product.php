@@ -246,7 +246,7 @@ if (isset($_SESSION['user_admin_id']) && $_SESSION['user_admin_id'] != null) {
     <script>
         $(function(e){
             "use strict";
-            $(".currency-inputmask").inputmask('999');
+            $(".currency-inputmask").inputmask('9999');
         });
     </script>
 </body>

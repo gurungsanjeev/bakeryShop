@@ -160,6 +160,7 @@ if (isset($_SESSION['user_admin_id']) && $_SESSION['user_admin_id'] != null) {
                                         <thead>
                                             <tr>
                                                 <th>S. No.</th>
+                                                <th>User Id</th>
                                                 <th>Username</th>
                                                 <!-- <th>User Id</th> -->
                                                 <th>Email</th>
@@ -178,7 +179,7 @@ if (isset($_SESSION['user_admin_id']) && $_SESSION['user_admin_id'] != null) {
                                             while ($res = mysqli_fetch_assoc($query)) {
                                             ?>
                                             <tr>
-                                                <td><?php echo $i++;?></td>
+                                                <td><?php echo $i++;?></td>                                                <td><?php echo $res['users_id'];?></td>
                                                 <td><?php echo $res['users_username'];?></td>
                                                 <td><?php echo $res['users_email'];?></td>
                                                 <td><?php echo $res['users_password'];?></td>
@@ -194,6 +195,7 @@ if (isset($_SESSION['user_admin_id']) && $_SESSION['user_admin_id'] != null) {
                                         <tfoot>
                                             <tr>
                                                 <th>S. No.</th>
+                                                <th>User Id</th>
                                                 <th>Username</th>
                                                 <th>Email</th>
                                                 <th>Password</th>
