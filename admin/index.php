@@ -40,7 +40,7 @@ if (isset($_GET['login_error']) && $_GET['login_error'] == 1) {
     <!-- ============================================================== -->
     <div class="splash-container">
         <div class="card ">
-            <div class="card-header text-center"><a href="#"><h2 class="text-primary">Online Cake Shop</h2></a><span class="splash-description">Please enter your user information.</span></div>
+            <div class="card-header text-center"><a href="index.php"><h2 class="text-primary">Bakery Shop</h2></a><span class="splash-description">Please enter your user information.</span></div>
             <div class="card-body">
                 <form id="form" data-parsley-validate="" method="post" action="login_check.php">
                     <div class="form-group">

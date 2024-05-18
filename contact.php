@@ -40,7 +40,7 @@ else {
         <!-- ============================================================== -->
          <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="#">Online Cake Shop</a>
+                <a class="navbar-brand" href="#" style="margin-left:4%;">The Bakery Shop</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span><i class="fas fa-bars mx-3
 "></i></span>
@@ -104,7 +104,7 @@ else {
                 
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="page-header">
+                        <div class="page-header" style="margin-left:4%;">
                             <h2 class="pageheader-title">Contact</h2>
                             <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p>
                             <div class="page-breadcrumb">
@@ -123,14 +123,14 @@ else {
                     <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 text-center">
                     	<div class="card">
                     		<div class="card-body">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15068.916563628642!2d72.8523129!3d19.2288429!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5a3374a957943f4b!2sTryCatch%20Classes%20%7C%20UI%20UX%2C%20Web%20Design%2C%20IOS%2CAndroid%20Development%2C%20Data%20Science%20Python%20Training%20Mumbai!5e0!3m2!1sen!2sin!4v1582367388365!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d744.0941241017837!2d85.2886442215192!3d27.68609887246528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18418484f5cb%3A0x47248c3878873e24!2sBalkhu%2C%20Kathmandu%2044600!5e1!3m2!1sen!2snp!4v1716048330123!5m2!1sen!2snp" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 <h3 class="text-secondary font-italic mt-3 text-left" style="color:blue;">Address:</h3>
                                 <p class="text-secondary font-italic text-left">
-                                    1213/1214, 12th Floor, GoldCrest Business Center, Opposite Manubhai Jewelers & Above Westside Showroom, L.T. Road, Borivali West, Mumbai – 400092
+                                    Balkhu, Kathmandu
                                 </p>
                                 <h3 class="text-secondary font-italic mt-3 text-left">Email:</h3>
                                 <p class="text-secondary font-italic text-left" style="color:blue;">
-                                     onlinecakeshop@gmail.com
+                                     thebakeryshop@gmail.com
                                 </p>
                                 <h3 class="text-secondary font-italic mt-3 text-left">Call on:</h3>
                                 <p class="text-secondary font-italic text-left">

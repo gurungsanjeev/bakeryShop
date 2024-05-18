@@ -61,7 +61,7 @@ if (!empty($_SESSION['user_users_id']) && !empty($_SESSION['user_users_username'
         <!-- ============================================================== -->
         <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="#">Online Cake Shop</a>
+                <a class="navbar-brand" href="#" style="margin-left:4%;">The Bakery Shop</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -139,7 +139,7 @@ if (!empty($_SESSION['user_users_id']) && !empty($_SESSION['user_users_username'
 
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div class="page-header">
+                    <div class="page-header" style="margin-left:4%;">
                         <h2 class="pageheader-title">Cart</h2>
                         <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit
                             amet vestibulum mi. Morbi lobortis pulvinar quam.</p>

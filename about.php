@@ -41,7 +41,7 @@ else {
         <!-- ============================================================== -->
          <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="#">Online Cake Shop</a>
+                <a class="navbar-brand" href="#" style="margin-left:4%;">The Bakery Shop</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span><i class="fas fa-bars mx-3
 "></i></span>
@@ -78,7 +78,7 @@ else {
                             <a class="nav-link" href="contact.php">Contact</a>
                         </li>
                         <li class="nav-item dropdown nav-user">
-                            <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="uploads/default-image.jpg" alt="" class="user-avatar-md rounded-circle"></a>
+                            <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="uploads/user.jpg" alt="" class="user-avatar-md rounded-circle"></a>
                             <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
                                 <div class="nav-user-info">
                                     <h5 class="mb-0 text-white nav-user-name"><?php echo $printUsername;?></h5>
@@ -105,7 +105,7 @@ else {
                 
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="page-header">
+                        <div class="page-header" style="margin-left:4%;">
                             <h2 class="pageheader-title">About us</h2>
                             <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p>
                             <div class="page-breadcrumb">
@@ -126,21 +126,8 @@ else {
                     		<div class="card-body">
                     			<div class="text-secondary font-italic m-3">
                                     <p>
-                                        The Cake Shop was founded by a team of passionate and dedicated bakers who are committed in baking the most delicious cakes and pastries around. Using only the freshest ingredients we can find, you can be sure that you are served the best quality cake you can ever have.
-                                    </p>
-                                    <p>
-                                        We have evolved to become one of a premium distributor and wholesaler for cakes and pastries to some well known resturants, cafes, supermart, hotels and bakery.
-                                    </p>
-                                    <p>
-                                        Our online store is a leading online shop in Singapore providing cakes and gifts deliveries within Singapore. We provide competitive prices, good after sales services and on-time delivery.
-                                    </p>
-                                    <p>
-                                        The Cake Shop provides same day delivery service seven days a week, including Sunday, within Singapore to provide a high level of customer service.
-                                    </p>
-                                    <p>
-                                        Bon Appetite!!
-                                    </p>
-                                    <p>
+                                    Welcome to <b>"The Bakery Shop"</b>, your one-stop destination for delectable baked goods delivered right to your doorstep. Our online bakery system offers a convenient way to indulge in your favorite cakes, cookies, pastries, and breads, freshly baked and crafted with love. With just a few clicks, you can browse our extensive menu, customize your order, and enjoy the sweet life without ever leaving the comfort of your home. Whether you’re celebrating a special occasion or simply treating yourself, Sweet Treats brings the warmth and joy of the bakery to you. 🍰💻🛒
+                                
                                         The Cake Shop Team
                                     </p>
                                 </div>
