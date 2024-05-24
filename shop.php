@@ -144,7 +144,7 @@ else {
                                     <div class="product-price">Rs. <?php echo $res['product_price'];?></div>
                                 </div>
                                 <div class="product_btn">
-                                    <button onclick="add_cart(<?php echo $res['product_id'];?>)" onclick="pop()" class="btn btn-primary">Add to Cart</button>
+                                    <button onclick="add_cart(<?php echo $res['product_id'];?>)" class="btn btn-primary">Add to Cart</button>
                                     <!-- <a href="#" onclick="add_cart(<?php echo $res['product_id'];?>)" class="btn btn-primary">Add to Cart</a> -->
                                     <a href="single_product.php?product_id=<?php echo $res['product_id'];?>" class="btn btn-outline-light">Details</a>
                                 </div>
@@ -230,6 +230,7 @@ else {
             })
         });
         function add_cart(product_id) {
+            alert("your product has been added to cart");
                 $.ajax({
                     url:'fetch_cart.php',
                     data:'id='+product_id,
