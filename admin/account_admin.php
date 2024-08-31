@@ -132,7 +132,7 @@ if (isset($_SESSION['user_admin_id']) && $_SESSION['user_admin_id'] != null) {
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="page-header">
                             <h2 class="pageheader-title">Admin Account</h2>
-                            <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p>
+                            
                             <div class="page-breadcrumb">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
@@ -160,17 +160,20 @@ if (isset($_SESSION['user_admin_id']) && $_SESSION['user_admin_id'] != null) {
                             <div class="card">
                                 <div class="card-body">
                                     <div class="form-group">
+                                        <label for="UserName">Username</label>
                                         <input class="form-control form-control-lg" type="text" name="admin_username" required="" autocomplete="off" value="<?php echo $res['admin_username'];?>">
                                     </div>
                                     <div class="form-group">
+                                        <label for="Email">Email:</label>
                                         <input class="form-control form-control-lg" type="email" name="admin_email" required="" autocomplete="off" value="<?php echo $res['admin_email'];?>">
                                     </div>
                                     <div class="form-group">
+                                        <label for="Password">Password:</label>
                                         <input class="form-control form-control-lg" type="text" required="" name="admin_password" value="<?php echo $res['admin_password'];?>">
                                     </div>
                                     <div class="form-group pt-2">
                                         <input type="hidden" value="<?php echo $res['admin_id'];?>" name="hidden_admin_id">
-                                        <button class="btn btn-block btn-primary" type="submit">Change</button>
+                                        <button class="btn btn-block btn-primary" type="submit">Update</button>
                                     </div>
                                 </div>
                             </div>

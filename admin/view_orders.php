@@ -139,7 +139,7 @@ if (isset($_SESSION['user_admin_id']) && $_SESSION['user_admin_id'] != null) {
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="page-header">
                             <h2 class="pageheader-title">Orders</h2>
-                            <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p>
+                            
                             <div class="page-breadcrumb">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
@@ -190,7 +190,7 @@ if (isset($_SESSION['user_admin_id']) && $_SESSION['user_admin_id'] != null) {
                                                 <td>
                                                     <button data-toggle="modal" data-target="#exampleModal" class="btn btn-space btn-primary" onclick="edit_orders(<?php echo $res['orders_id'];?>)">Edit</button>
                                                     <button onclick="delete_orders(<?php echo $res['orders_id'];?>)" class="btn btn-space btn-secondary">DELETE</button>
-                                                    <button onclick="approve_orders(<?php echo $res['orders_id'];?>)" class="btn btn-space btn-secondary">Approved</button>
+                                                    
                                                 </td>
                                             </tr>
                                             <?php } ?>
@@ -273,15 +273,9 @@ if (isset($_SESSION['user_admin_id']) && $_SESSION['user_admin_id'] != null) {
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                            Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>.
+                            Copyright © 2018 Concept. All rights reserved.
                         </div>
-                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                            <div class="text-md-right footer-links d-none d-sm-block">
-                                <a href="javascript: void(0);">About</a>
-                                <a href="javascript: void(0);">Support</a>
-                                <a href="javascript: void(0);">Contact Us</a>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
