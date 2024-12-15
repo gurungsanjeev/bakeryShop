@@ -37,7 +37,7 @@ if (isset($_SESSION['user_admin_id']) && $_SESSION['user_admin_id'] != null) {
         <!-- ============================================================== -->
        <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="#" style="margin-left:4%;">The Bakery Shop</a>
+                <a class="navbar-brand" href="#" style="margin-left:4%;"><img src="uploads/LAPlogo.jpg" alt="" style="height:50px"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span><i class="fas fa-bars mx-3
 "></i></span>
@@ -134,7 +134,7 @@ if (isset($_SESSION['user_admin_id']) && $_SESSION['user_admin_id'] != null) {
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="page-header">
                             <h2 class="pageheader-title">Category</h2>
-                            <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p>
+                            <!-- <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p> -->
                             <div class="page-breadcrumb">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
@@ -158,7 +158,7 @@ if (isset($_SESSION['user_admin_id']) && $_SESSION['user_admin_id'] != null) {
                                     <form action="insert_category.php" id="form" method="post" enctype="multipart/form-data">
                                         <div class="form-group">
                                             <label for="inputCategoryName">Category Name</label>
-                                            <input id="inputCategoryName" type="text" name="category_name" required="" placeholder="Enter category name" autocomplete="off" class="form-control">
+                                            <input id="inputCategoryName" type="text" name="category_name"  placeholder="Enter category name" autocomplete="off" class="form-control">
                                         </div>
                                         <div class="custom-file mb-3">
                                             <input type="file" class="custom-file-input" id="customFile" name="category_image">

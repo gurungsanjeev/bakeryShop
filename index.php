@@ -33,7 +33,7 @@ else {
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>OCS - Home</title>
+    <title>LapCraft - Home</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="fonts/circular-std/style.css" rel="stylesheet">
@@ -54,7 +54,7 @@ else {
         <!-- ============================================================== -->
          <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="#" style="margin-left:4%;">The Bakery Shop</a>
+                <a class="navbar-brand" href="#" style="margin-left:4%;"><img src="uploads/LAPlogo.jpg" alt="" style="height:50px"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span><i class="fas fa-bars mx-3
 "></i></span>
@@ -65,7 +65,7 @@ else {
                             <a class="nav-link active" href="index.php">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Brands</a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink1">
                             <?php
                             require_once('config.php');
@@ -121,15 +121,15 @@ else {
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner rounded">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="uploads/1.jpg" alt="First slide">
+                                    <img class="d-block w-100" src="uploads/img1.png" alt="First slide" style="height:500px">
                                     <div class="carousel-caption d-md-block pb-5">
-                                        <h3 class="text-white">GOOD FOOD, GOOD LIFE</h3>
-                                        <p>Cakes are special, every celebration ends with something sweet like a cake and people remember it's all about the memories.</p>
-                                        <a href="about.php" class="btn btn-rounded btn-outline-light">Read More</a>
+                                        <h3 class="text-white">Mega Offer 10% off</h3>
+                                        <!-- <p></p> -->
+                                        <!-- <a href="about.php" class="btn btn-rounded btn-outline-light">Read More</a> -->
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="uploads/2.jpg" alt="Second slide">
+                                    <img class="d-block w-100" src="uploads/img2.jpg" alt="Second slide" style="height:500px ">
                                     <div class="carousel-caption d-md-block pb-5">
                                         <h3 class="text-white">The cake we bake with love</h3>
                                         <p>Take the shredded pieces of your life and bake a master cake out of it.</p>
@@ -137,7 +137,7 @@ else {
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="uploads/3.jpg" alt="Third slide">
+                                    <img class="d-block w-100" src="uploads/img3.jpg" alt="Third slide" style="height:500px ">
                                     <div class="carousel-caption d-md-block pb-5">
                                         <h3 class="text-white">Love at first bite</h3>
                                         <p>You can’t be down when you are holding a cupcake.</p>
@@ -145,7 +145,7 @@ else {
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="uploads/5.jpg" alt="Fourth slide">
+                                    <img class="d-block w-100" src="uploads/pic4.jpg" alt="Fourth slide" style="height:500px ">
                                     <div class="carousel-caption d-md-block pb-5">
                                         <h3 class="text-white">A party without cake is really just a meeting.</h3>
                                         <p>Cakes are special, every celebration ends with something sweet like a cake and people remember it's all about the memories.</p>
@@ -153,7 +153,7 @@ else {
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="uploads/6.jpg" alt="Fifth slide">
+                                    <img class="d-block w-100" src="uploads/pic6.jpg" alt="Fifth slide"  style="height:500px; object-fit:gill; " width="100%">
                                     <div class="carousel-caption d-md-block pb-5">
                                         <h3 class="text-white">Eat a cake.</h3>
                                         <p>Cakes are special, every celebration ends with something sweet like a cake and people remember it's all about the memories.</p>
@@ -161,7 +161,7 @@ else {
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="uploads/7.jpg" alt="Sixth slide">
+                                    <img class="d-block w-100" src="uploads/img7.jpg" alt="Sixth slide"  style="height:500px; object-fit:cover; " >
                                     <div class="carousel-caption d-md-block pb-5">
                                         <h3 class="text-white">View our categories.</h3>
                                         <p>Cakes are special, every celebration ends with something sweet like a cake and people remember it's all about the memories.</p>
@@ -214,7 +214,7 @@ else {
 
                 <div class="row mx-5">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
-                        <h1 style="text-align:center;">Our Categories</h1>
+                        <h1 style="text-align:center;">Top Brands</h1>
                     </div>
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="owl-carousel owl-theme">

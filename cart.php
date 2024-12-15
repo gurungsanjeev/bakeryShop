@@ -40,7 +40,7 @@ if (!empty($_SESSION['user_users_id']) && !empty($_SESSION['user_users_username'
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>OCS - Cart</title>
+    <title>LapCraft - Cart</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="fonts/circular-std/style.css" rel="stylesheet">
@@ -61,7 +61,7 @@ if (!empty($_SESSION['user_users_id']) && !empty($_SESSION['user_users_username'
         <!-- ============================================================== -->
         <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="#" style="margin-left:4%;">The Bakery Shop</a>
+                <a class="navbar-brand" href="#" style="margin-left:4%;"><img src="uploads/LAPlogo.jpg" alt="" style="height:50px"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">

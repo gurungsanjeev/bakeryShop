@@ -41,7 +41,7 @@ else {
         <!-- ============================================================== -->
          <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="#">Online Cake Shop</a>
+                <a class="navbar-brand" href="#"><img src="uploads/LAPlogo.jpg" alt="" style="height:50px"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span><i class="fas fa-bars mx-3
 "></i></span>
@@ -52,7 +52,7 @@ else {
                             <a class="nav-link" href="index.php">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link active" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                            <a class="nav-link active" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Brands</a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink1">
                             <?php
                             require_once('config.php');
@@ -165,7 +165,12 @@ else {
                                     </div>
                                     <div class="product-description">
                                         <h4 class="mb-1">Descriptions</h4>
-                                        <p><?php echo $res['product_description'];?></p>
+                                        <p>
+                                            <ul>
+
+                                                <?php echo $res['product_description'];?>
+                                            </ul>
+                                        </p>
                                         <button onclick="add_cart(<?php echo $res['product_id'];?>)" class="btn btn-primary btn-block btn-lg">Add to Cart</button>
                                     </div>
                                 </div>
@@ -177,7 +182,7 @@ else {
 
                 <div class="row m-5">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
-                        <h1>Our Categories</h1>
+                        <h1>Top Brands</h1>
                     </div>
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="owl-carousel owl-theme">
